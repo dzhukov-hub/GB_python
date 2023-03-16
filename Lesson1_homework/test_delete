@@ -1,0 +1,30 @@
+def say_name(name):
+    def say_goodbye():
+        print("Don`t say  "+name+"!")
+    return say_goodbye
+
+
+# say_name("Denis")
+
+f = say_name("Denis")
+f()
+
+#print(type(f))
+# p()
+# p.say_goodbye
+
+
+#print(int(bool(1%10)))
+
+
+#print(2%0.432423)
+
+#print(2/0.432423)
+
+
+print(10.0 % 3.0)
+print(10 / 3 )
+print(5 / 0.25)
+print(5 % 0.25)
+
+
